@@ -1,0 +1,370 @@
+:root {
+    --preto-principal: rgba(70, 70, 70, 1);
+    --quadrado-principal:rgba(255, 255, 255, 1);
+    --cor-de-fundo:#bdb76b;
+    --cor-da-letra:#00008b;
+    --fonte-de-letra:Apple Chancery, cursive;
+    --fonte-de-letra-titulo:Stencil Std, fantasy;
+    --fonte-de-letra-contato:Brush Script MT, Brush Script Std, cursive;
+    --fonte-de-letra-inicio:Arial Narrow, sans-serif;
+    --cor-de-fundo:#F5F5F5;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+
+
+}
+.body {
+    font-family: var(--fonte-de-letra);
+    
+}
+
+.header {
+    background-color:#bdb76b ;
+    color: #00008b;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+.menu {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1136px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    padding: 2rem 0;
+    
+}
+
+.menu header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+.menu__title {
+    font-family: var(--fonte-de-letra-contato);
+    font-size: 1rem;
+    font-weight: 700;
+    
+}
+
+.imagem {
+    width: 368px;
+    height: 368px;
+    float: right;
+
+
+}
+.apresentacao__sobre__mim {
+    width: 751px;
+    height: 122px;
+    font-family: var(--fonte-de-letra-contato);
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61.05px;
+}
+
+.apresentacao__links__subtitulo{
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.apresentacao__links__navegacao{
+    /*background-color: #22D4FD;*/
+    display: flex;
+    justify-content: center ;
+    gap: 16px;
+    border: 2px solid var(--cor-terciaria);
+    width: 50%;
+    text-align: center;
+    border-radius:8px ;
+    font-size: 1.5rem;
+    font: weight 600px; 
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+}
+.apresentacao__links__link:hover {
+    background-color: var(--cor-hover) ;
+}
+.about__titulo {
+   
+    font-family: var(--fonte-de-letra-contato);
+    font-weight: 700;
+   
+
+}
+
+.titulo__sobre {
+    font-family: var(--fonte-de-letra-contato);
+    font-size: 40px;
+
+}
+
+.menu__list__sobre-mim h1{
+    width: 751px;
+    height: 133px;
+    font-family: var(--fonte-de-letra-contato);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.78px;
+    color: var(--cor-da-letra);
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.skills {
+    max-width: 1136px;
+    margin: 2rem auto 5.5rem auto;
+    margin-bottom: 5,5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.skills__name {
+    font-family: var(--fonte-de-letra-titulo);  
+    gap: 20px;
+    display: flex; 
+    align-items: center;
+    
+}
+
+.Skills__titulo {
+    font-family: var(--fonte-de-letra-titulo);
+    width: 82px;
+    height: 38px;
+    
+
+    
+}
+
+.skills__caixa>ul {
+    background-color: white;
+    display: flex;
+    width: 176px;
+    height: 174px;
+    gap: 50px; 
+    justify-content:center;
+    flex-wrap: nowrap;
+      
+}
+
+.skills__img {
+    width: 24px;
+    height: 37px;
+}
+
+.hobbies {
+    max-width: 1136px;
+    margin: 2rem auto 5.5rem auto;
+    margin-bottom: 5,5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}   
+
+.hobbies__titulo {
+  
+   font-family: var(--fonte-de-letra-titulo);
+   width: 82px;
+   height: 38px;
+  
+   
+}
+
+.hobbies__caixa {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 176px;
+    height: 174px;
+    gap: 50px;
+    
+    
+    
+}
+.hobbies__nome {
+    font-family: var(--fonte-de-letra-titulo);
+    font-weight: 700;
+    gap: 20px;
+    display: flex; 
+    align-items: center;
+
+    
+}
+.hobbies__img {
+    width: 24px;
+    height: 37px;
+    
+}
+
+.formacao {
+    max-width: 1136px;
+    margin: 2rem auto 5.5rem auto;
+    margin-bottom: 5,5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem; 
+}
+    
+.formacao__academica{
+    font-family: var(--fonte-de-letra-titulo);
+    
+   
+}
+
+.formacao__menu{
+    font-family: var(--fonte-de-letra-titulo);  
+    
+}
+
+
+.formacao__img{
+    width: 27px;
+   height: 38px;
+   
+}
+
+.formacao__caixas{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    background-color: white;
+    width: 176px;
+    height: 174px;
+    align-items: center;
+     
+}
+
+.menu__experiencia {
+    font-family: var(--fonte-de-letra-titulo);
+}
+
+.experiencia {
+    max-width: 1136px;
+    margin: 2rem auto 5.5rem auto;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem; 
+}
+.experiencia__imagem {
+    width: 82px;
+   height: 38px;
+    
+}
+.formacao__caixa {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    background-color: white;
+    width: 176px;
+    height: 174px;
+    
+}
+
+ .list__formacao   {
+    font-family: var(--fonte-de-letra-titulo);
+ }
+    
+
+.campocontato_secao {
+    background-color: #EAF2FD;
+    padding: 64px 150px;
+}
+
+.campocontato__img {
+    float: left;
+    display: flex;
+    margin-right: 10px;
+    justify-content: center;
+    padding: 64px 150px;
+    width: 100%;
+
+    
+}
+.campocontato__titulo {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: var(--fonte-de-letra);
+    color: #00008b;
+    line-height: 37.57px;
+    
+}
+
+.campocontato__subtitulo {
+    text-align: left;
+    font-family: Amarante;
+    color: #00008b; 
+    line-height: 18.78px; 
+    font-weight: 500; 
+    font-size: 1rem; 
+}
+
+.campocontato__forma {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 656px;
+    height: 397px;
+}
+.campocontato__input {
+    width: 600px;
+    height: 40px;
+    top: 8px;
+    padding: 0px 12px 0px 12px;
+    gap: 0px;
+    font-family: var(--fonte-de-letra);
+    color: var(--cor-da-letra);
+    border: none;
+    
+}
+
+.campocontato__botao {
+    width:165px;
+    height:51px;
+    padding: 16px 0px 0px 0px;
+    gap: 10px;
+    color: #00008b;
+    font-family: var(--fonte-de-letra);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.78px;
+    display: inline-grid;
+
+}
+ .rodape p{
+    width: 234px;
+    height: 38px;
+    font-family: var(--fonte-de-letra);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.78px;
+    text-align: center;
+    
+
+}
+
+
+
+
+  
